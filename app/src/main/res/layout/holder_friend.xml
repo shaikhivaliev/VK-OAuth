@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp" />
+
+
+    <TextView
+        android:id="@+id/tv_friend_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/iv_photo"
+        android:textStyle="bold"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/tv_friend_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/tv_friend_name"
+        android:layout_below="@id/tv_friend_name"
+        android:textStyle="bold"
+        tools:text="Surname" />
+
+
+    <TextView
+        android:id="@+id/tv_friend_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/tv_friend_surname"
+        android:layout_below="@id/tv_friend_surname"
+        android:textStyle="italic"
+        tools:text="city" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/iv_photo"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary" />
+
+
+</RelativeLayout>

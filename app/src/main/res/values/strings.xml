@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">testShaikhivaliev</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="or">or</string>
+    <string name="sign_up_with">Sign up with</string>
+    <string name="logout">Logout</string>
+    <string name="something_went_wrong_try_again">Something went wrong. Try again</string>
+    <string name="auth_with_vk">Auth with VK</string>
+</resources>
